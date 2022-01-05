@@ -1,0 +1,33 @@
+{
+  "url": "https://www.bswtan.com/17/17843/",
+  "steps": {
+    "start": [
+      {
+        "css_path": "dd > a",
+        "next": "final",
+        "ext": {
+          "title": {
+            "css_path": "h1"
+          },
+          "author": {
+            "css_path": "#info > p:nth-child(2)"
+          }
+        }
+      }
+    ]
+  },
+  "final": {
+    "title": {
+      "ext_name": "title"
+    },
+    "author": {
+      "ext_name": "author"
+    },
+    "chapter_title": {
+      "css_path": "h1"
+    },
+    "content": {
+      "css_path": "#content"
+    }
+  }
+}
