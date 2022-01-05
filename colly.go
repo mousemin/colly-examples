@@ -26,7 +26,7 @@ var (
 func init() {
 	flag.StringVar(&urlStr, "url", "", "抓取地址")
 	flag.StringVar(&collyName, "name", "", "抓取配置: bswtan")
-	flag.StringVar(&savePath, "path", "/Users/mouse/workspace/punch/colly-examples/colly", "存储地址")
+	flag.StringVar(&savePath, "path", "./colly", "存储地址")
 }
 
 func Init() (err error) {
